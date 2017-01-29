@@ -1,0 +1,26 @@
+[
+  {
+    "caption": "GPG: Decrypt",
+    "command": "gpg_decrypt"
+  },
+  {
+    "caption": "GPG: Encrypt",
+    "command": "gpg_encrypt"
+  },
+  {
+    "caption": "GPG: Sign",
+    "command": "gpg_sign"
+  },
+  {
+    "caption": "GPG: Sign and encrypt",
+    "command": "gpg_sign_and_encrypt"
+  },
+  {
+    "caption": "GPG: Verify signature",
+    "command": "gpg_verify"
+  },
+  {
+    "caption": "GPG: Help",
+    "command": "gpg_help"
+  }
+]

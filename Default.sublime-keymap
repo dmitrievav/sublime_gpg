@@ -1,0 +1,10 @@
+[
+  {
+    "keys": ["super+g","super+e"],
+    "command": "gpg_encrypt"
+  },
+  {
+    "keys": ["super+g","super+d"],
+    "command": "gpg_decrypt"
+  }
+]
