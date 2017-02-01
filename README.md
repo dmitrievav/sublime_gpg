@@ -9,7 +9,8 @@ This GPG plugin for Sublime Text 3 adds commands to decrypt, encrypt, sign, and 
 
 On OS X, I recommend installing GPG using the [Homebrew package manager](http://brew.sh/): after installing Homebrew, run `brew install gpg`.
 
-![sublime_gpg](https://dl.dropboxusercontent.com/content_link/JXHW5MYsko43mi6T6eJpVhmhISdJirN0cy0EHXYFoqsbM9kotzLxPbCMcjiqOHQ5/file?dl=0&duc_id=wQ6Bb887M7JiwJtWW60BtZuSKMorvLckQtw3yRy8XR4bnnJdPNLZjp9C7j671aGc&raw=1&size=2048x1536&size_mode=3 "sublime_gpg")
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/ZTX0S"><a href="//imgur.com/ZTX0S"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![sublime_gpg](https://dmitrievav.github.io/gifs/sublime_gpg.gif "sublime_gpg")
 
 Install
 -------
@@ -64,4 +65,3 @@ Flaws and limitations
 ---------------------
 
 - Signatures can only be created with the default key (the first key in the secret key ring, or else the default specified in `gpg.conf`).
-[]: 
