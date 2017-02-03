@@ -5,11 +5,12 @@ A reincarnation of https://github.com/crowsonkb/SublimeGPG, which was closed by 
 
 For people who are ready to proceed:
 
-This GPG plugin for Sublime Text 3 adds commands to decrypt, encrypt, sign, and authenticate documents. It requires a working copy of [GPG](http://www.gnupg.org/) with a key already generated. (If you haven't generated a key yet, see [this mini-HOWTO](http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto-3.html#ss3.1).) If the gpg binary is not in `$PATH`, you will have to set its location in Preferences → Package Settings → GPG.
+The new home of the plugin is https://github.com/dmitrievav/sublime_gpg
+
+This plugin adds commands to decrypt, encrypt, sign, and authenticate documents. It requires a working copy of [GPG](http://www.gnupg.org/) with a key already generated. (If you haven't generated a key yet, see [this mini-HOWTO](http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto-3.html#ss3.1).) If the gpg binary is not in `$PATH`, you will have to set its location in Preferences → Package Settings → GPG.
 
 On OS X, I recommend installing GPG using the [Homebrew package manager](http://brew.sh/): after installing Homebrew, run `brew install gpg`.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/ZTX0S"><a href="//imgur.com/ZTX0S"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 ![sublime_gpg](https://dmitrievav.github.io/gifs/sublime_gpg.gif "sublime_gpg")
 
 Install
