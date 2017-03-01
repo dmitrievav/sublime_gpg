@@ -1,0 +1,9 @@
+## GPG plug-in for Sublime Text 3
+
+* [ ] remove temp fix from `src/text_commands.py` after a few updates
+* [ ] fix plug-in not working on Windows
+  * [ ] probably due to missing input of passphrase
+* [ ] make recipients in settings an array and fix pyton code accordingly for better readability
+  * [ ] add temp fix for transition period
+* [ ] review the necessity of `.no-sublime-package`
+* [ ] add a grammar file for output panel to color it

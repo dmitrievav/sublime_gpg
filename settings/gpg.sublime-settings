@@ -1,0 +1,19 @@
+{
+//  Specifies the full path if `gpg` is not in your `$PATH` (default: "gpg")
+    "gpg.command": "gpg",
+
+//  Targets a directory other than the default `~/.gnupg/` (default: "")
+    "gpg.homedir": "",
+
+//  If set appends all logging to a file (default: "")
+    "gpg.log_file": "",
+
+//  Do not show Readme when plug-in loaded (default: false)
+    "gpg.readme_shown": false,
+
+//  A CSV (comma-separated values) string of recipients (default: "")
+    "gpg.recipients": "",
+
+//  Valid values are 0 through 3 (default: 1)
+    "gpg.verbosity": 1
+}

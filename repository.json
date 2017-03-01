@@ -1,16 +1,18 @@
 {
-  "schema_version": "3.0.0",
-  "packages": [
-    {
-      "name": "GPG",
-      "description": "GPG plugin for Sublime Text 3.",
-      "details": "https://github.com/dmitrievav/sublime_gpg",
-      "releases": [
+    "schema_version": "3.0.0",
+    "packages":
+    [
         {
-          "sublime_text": ">=3000",
-          "tags": true
+            "name": "GPG",
+            "description": "GPG plugin for Sublime Text 3.",
+            "details": "https://github.com/dmitrievav/sublime_gpg",
+            "releases":
+            [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
