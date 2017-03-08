@@ -1,0 +1,85 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "gpg",
+                "caption": "GPG",
+                "children":
+                [
+                    {
+                        "id": "decrypt",
+                        "caption": "Decrypt",
+                        "command": "gpg_decrypt"
+                    },
+                    {
+                        "id": "encrypt",
+                        "caption": "Encrypt",
+                        "command": "gpg_encrypt"
+                    },
+                    {
+                        "id": "sign",
+                        "caption": "Sign",
+                        "command": "gpg_sign"
+                    },
+                    {
+                        "id": "sign_and_encrypt",
+                        "caption": "Sign and encrypt",
+                        "command": "gpg_sign_and_encrypt"
+                    },
+                    {
+                        "id": "verify",
+                        "caption": "Verify signature",
+                        "command": "gpg_verify"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "GPG",
+                        "children":
+                        [
+                            {
+                                "caption": "Readme",
+                                "command": "gpg_readme"
+                            },
+                            {
+                                "caption": "Changelog",
+                                "command": "gpg_changelog"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/GPG/settings/gpg.sublime-settings",
+                                    "default": "{\n\t$0\n}\n"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/GPG/input-maps/Default (${platform}).sublime-keymap",
+                                    "default": "[\n\t$0\n]\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "caption": "GPG: Decrypt",
+        "command": "gpg_decrypt"
+    },
+    {
+        "caption": "GPG: Encrypt",
+        "command": "gpg_encrypt"
+    },
+    {
+        "caption": "GPG: Sign",
+        "command": "gpg_sign"
+    },
+    {
+        "caption": "GPG: Sign and encrypt",
+        "command": "gpg_sign_and_encrypt"
+    },
+    {
+        "caption": "GPG: Verify signature",
+        "command": "gpg_verify"
+    },
+    {
+        "caption": "GPG: Readme",
+        "command": "gpg_readme"
+    },
+    {
+        "caption": "GPG: Changelog",
+        "command": "gpg_changelog"
+    },
+    {
+        "caption": "Preferences: GPG: Settings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/GPG/settings/gpg.sublime-settings",
+            "default": "{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "Preferences: GPG: Key Bindings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/GPG/input-maps/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n"
+        }
+    }
+]
